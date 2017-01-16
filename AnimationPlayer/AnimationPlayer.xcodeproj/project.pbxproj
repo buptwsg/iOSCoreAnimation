@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */; };
 		C6C177341E1E5551005C3E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C177331E1E5551005C3E39 /* main.m */; };
 		C6C177371E1E5551005C3E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C177361E1E5551005C3E39 /* AppDelegate.m */; };
 		C6C1773A1E1E5551005C3E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C177391E1E5551005C3E39 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C665389F1E28BE94008C9333 /* UIViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationViewController.h; sourceTree = "<group>"; };
+		C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationViewController.m; sourceTree = "<group>"; };
 		C6C1772F1E1E5551005C3E39 /* AnimationPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C177331E1E5551005C3E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6C177351E1E5551005C3E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				C6C177401E1E5551005C3E39 /* LaunchScreen.storyboard */,
 				C6C177431E1E5551005C3E39 /* Info.plist */,
 				C6C177321E1E5551005C3E39 /* Supporting Files */,
+				C665389F1E28BE94008C9333 /* UIViewAnimationViewController.h */,
+				C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */,
 			);
 			path = AnimationPlayer;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				C6C1773A1E1E5551005C3E39 /* ViewController.m in Sources */,
 				C6C177371E1E5551005C3E39 /* AppDelegate.m in Sources */,
+				C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */,
 				C6C177341E1E5551005C3E39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +315,7 @@
 				C6C177481E1E5551005C3E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
