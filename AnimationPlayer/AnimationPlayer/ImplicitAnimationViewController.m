@@ -25,6 +25,7 @@
     _subLayer.bounds = CGRectMake(0, 0, self.targetView.bounds.size.width - 10, self.targetView.bounds.size.height - 10);
     _subLayer.position = CGPointMake(self.targetView.bounds.size.width/2, self.targetView.bounds.size.height/2);
     _subLayer.backgroundColor = [UIColor yellowColor].CGColor;
+    _subLayer.cornerRadius = 5;
     [self.targetView.layer addSublayer: _subLayer];
 }
 
@@ -127,6 +128,25 @@
     }
     else {
         _subLayer.anchorPoint = CGPointMake(.5, .5);
+    }
+    
+    if (self.disableImplicit) {
+        [CATransaction commit];
+    }
+}
+
+- (IBAction)changeCornerRadius:(id)sender {
+    if (self.disableImplicit) {
+        [CATransaction begin];
+        [CATransaction setValue:(id)kCFBooleanTrue
+                         forKey:kCATransactionDisableActions];
+    }
+    
+    if (_subLayer.cornerRadius == 5) {
+        _subLayer.cornerRadius = 20;
+    }
+    else {
+        _subLayer.cornerRadius = 5;
     }
     
     if (self.disableImplicit) {

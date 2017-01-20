@@ -10,6 +10,9 @@
 		C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */; };
 		C668044F1E2CE29300D09E95 /* TransitionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */; };
 		C66804591E2E363100D09E95 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66804581E2E363100D09E95 /* ImplicitAnimationViewController.m */; };
+		C66804651E30964100D09E95 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66804641E30964100D09E95 /* AnimationDemoViewController.m */; };
+		C668047F1E32132300D09E95 /* CaseExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C668047E1E32132300D09E95 /* CaseExploreViewController.m */; };
+		C66804821E32247F00D09E95 /* BasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66804811E32247F00D09E95 /* BasicAnimationViewController.m */; };
 		C6C177341E1E5551005C3E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C177331E1E5551005C3E39 /* main.m */; };
 		C6C177371E1E5551005C3E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C177361E1E5551005C3E39 /* AppDelegate.m */; };
 		C6C1773D1E1E5551005C3E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C1773B1E1E5551005C3E39 /* Main.storyboard */; };
@@ -24,6 +27,13 @@
 		C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDemoViewController.m; sourceTree = "<group>"; };
 		C66804571E2E363100D09E95 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
 		C66804581E2E363100D09E95 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		C66804631E30964100D09E95 /* AnimationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDemoViewController.h; sourceTree = "<group>"; };
+		C66804641E30964100D09E95 /* AnimationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoViewController.m; sourceTree = "<group>"; };
+		C668047C1E320EA200D09E95 /* TypeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TypeDefine.h; sourceTree = "<group>"; };
+		C668047D1E32132300D09E95 /* CaseExploreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseExploreViewController.h; sourceTree = "<group>"; };
+		C668047E1E32132300D09E95 /* CaseExploreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseExploreViewController.m; sourceTree = "<group>"; };
+		C66804801E32247F00D09E95 /* BasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicAnimationViewController.h; sourceTree = "<group>"; };
+		C66804811E32247F00D09E95 /* BasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicAnimationViewController.m; sourceTree = "<group>"; };
 		C6C1772F1E1E5551005C3E39 /* AnimationPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6C177331E1E5551005C3E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6C177351E1E5551005C3E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +74,7 @@
 		C6C177311E1E5551005C3E39 /* AnimationPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C668047C1E320EA200D09E95 /* TypeDefine.h */,
 				C6C177351E1E5551005C3E39 /* AppDelegate.h */,
 				C6C177361E1E5551005C3E39 /* AppDelegate.m */,
 				C6C1773B1E1E5551005C3E39 /* Main.storyboard */,
@@ -77,6 +88,12 @@
 				C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */,
 				C66804571E2E363100D09E95 /* ImplicitAnimationViewController.h */,
 				C66804581E2E363100D09E95 /* ImplicitAnimationViewController.m */,
+				C66804631E30964100D09E95 /* AnimationDemoViewController.h */,
+				C66804641E30964100D09E95 /* AnimationDemoViewController.m */,
+				C668047D1E32132300D09E95 /* CaseExploreViewController.h */,
+				C668047E1E32132300D09E95 /* CaseExploreViewController.m */,
+				C66804801E32247F00D09E95 /* BasicAnimationViewController.h */,
+				C66804811E32247F00D09E95 /* BasicAnimationViewController.m */,
 			);
 			path = AnimationPlayer;
 			sourceTree = "<group>";
@@ -162,8 +179,11 @@
 			files = (
 				C668044F1E2CE29300D09E95 /* TransitionDemoViewController.m in Sources */,
 				C66804591E2E363100D09E95 /* ImplicitAnimationViewController.m in Sources */,
+				C66804821E32247F00D09E95 /* BasicAnimationViewController.m in Sources */,
+				C66804651E30964100D09E95 /* AnimationDemoViewController.m in Sources */,
 				C6C177371E1E5551005C3E39 /* AppDelegate.m in Sources */,
 				C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */,
+				C668047F1E32132300D09E95 /* CaseExploreViewController.m in Sources */,
 				C6C177341E1E5551005C3E39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
