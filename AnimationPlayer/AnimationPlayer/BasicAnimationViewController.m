@@ -109,6 +109,7 @@ void testContents(CALayer *layer) {
     testLayer.position = CGPointMake(layer.bounds.size.width/2, layer.bounds.size.height/2);
     testLayer.bounds = CGRectMake(0, 0, layer.bounds.size.width/2, layer.bounds.size.height/2);
     testLayer.contents = (__bridge id _Nullable)(image.CGImage);
+    testLayer.contentsGravity = kCAGravityResizeAspect;
     
     image = [UIImage imageNamed: @"arrow"];
     CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath: @"contents"];

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */; };
+		C66582401E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C665823F1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m */; };
 		C668044F1E2CE29300D09E95 /* TransitionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */; };
 		C66804591E2E363100D09E95 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66804581E2E363100D09E95 /* ImplicitAnimationViewController.m */; };
 		C66804651E30964100D09E95 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66804641E30964100D09E95 /* AnimationDemoViewController.m */; };
@@ -23,6 +24,8 @@
 /* Begin PBXFileReference section */
 		C665389F1E28BE94008C9333 /* UIViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationViewController.h; sourceTree = "<group>"; };
 		C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationViewController.m; sourceTree = "<group>"; };
+		C665823E1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationViewController.h; sourceTree = "<group>"; };
+		C665823F1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationViewController.m; sourceTree = "<group>"; };
 		C668044D1E2CE29300D09E95 /* TransitionDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionDemoViewController.h; sourceTree = "<group>"; };
 		C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDemoViewController.m; sourceTree = "<group>"; };
 		C66804571E2E363100D09E95 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				C668047E1E32132300D09E95 /* CaseExploreViewController.m */,
 				C66804801E32247F00D09E95 /* BasicAnimationViewController.h */,
 				C66804811E32247F00D09E95 /* BasicAnimationViewController.m */,
+				C665823E1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.h */,
+				C665823F1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m */,
 			);
 			path = AnimationPlayer;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				C66804651E30964100D09E95 /* AnimationDemoViewController.m in Sources */,
 				C6C177371E1E5551005C3E39 /* AppDelegate.m in Sources */,
 				C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */,
+				C66582401E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m in Sources */,
 				C668047F1E32132300D09E95 /* CaseExploreViewController.m in Sources */,
 				C6C177341E1E5551005C3E39 /* main.m in Sources */,
 			);

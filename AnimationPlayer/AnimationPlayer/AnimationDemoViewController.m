@@ -8,6 +8,7 @@
 
 #import "AnimationDemoViewController.h"
 #import "BasicAnimationViewController.h"
+#import "KeyFrameAnimationViewController.h"
 
 static NSString *reuseId = @"demo";
 
@@ -54,6 +55,10 @@ static NSString *reuseId = @"demo";
     switch (row) {
         case 0:
             vc = [BasicAnimationViewController new];
+            break;
+            
+        case 1:
+            vc = [KeyFrameAnimationViewController new];
             break;
             
         default:
