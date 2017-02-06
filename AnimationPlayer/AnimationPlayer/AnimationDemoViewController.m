@@ -24,7 +24,7 @@ static NSString *reuseId = @"demo";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction", @"CAAnimationDelegate"];
+    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"Animate Layer-Backed Views", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction", @"CAAnimationDelegate"];
     [self.tableView registerClass: [UITableViewCell class] forCellReuseIdentifier: reuseId];
 }
 

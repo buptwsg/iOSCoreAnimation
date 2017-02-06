@@ -32,7 +32,7 @@
     [self.nextButton setTitle: @"下一个" forState: UIControlStateNormal];
     [self.nextButton addTarget: self action: @selector(nextCase) forControlEvents: UIControlEventTouchUpInside];
     [self.nextButton sizeToFit];
-    self.nextButton.center = CGPointMake(self.view.bounds.size.width - 12 - self.nextButton.bounds.size.width/2, self.view.bounds.size.height/2);
+    self.nextButton.center = CGPointMake(self.view.bounds.size.width - 12 - self.nextButton.bounds.size.width/2, self.view.bounds.size.height - 50);
     
     self.prevButton = [[UIButton alloc] init];
     self.prevButton.adjustsImageWhenDisabled = YES;
@@ -41,7 +41,7 @@
     [self.prevButton setTitle: @"上一个" forState: UIControlStateNormal];
     [self.prevButton addTarget: self action: @selector(prevCase) forControlEvents: UIControlEventTouchUpInside];
     [self.prevButton sizeToFit];
-    self.prevButton.center = CGPointMake(12 + self.prevButton.bounds.size.width/2, self.view.bounds.size.height/2);
+    self.prevButton.center = CGPointMake(12 + self.prevButton.bounds.size.width/2, self.view.bounds.size.height - 50);
     
     self.caseNameLabel = [[UILabel alloc] init];
     self.caseNameLabel.font = [UIFont systemFontOfSize: 20];
