@@ -9,6 +9,7 @@
 #import "AnimationDemoViewController.h"
 #import "BasicAnimationViewController.h"
 #import "KeyFrameAnimationViewController.h"
+#import "SpringAnimationViewController.h"
 #import "TargetValueViewController.h"
 
 static NSString *reuseId = @"demo";
@@ -60,6 +61,10 @@ static NSString *reuseId = @"demo";
             
         case 1:
             vc = [KeyFrameAnimationViewController new];
+            break;
+            
+        case 2:
+            vc = [SpringAnimationViewController new];
             break;
             
         case 3:

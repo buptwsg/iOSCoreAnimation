@@ -374,7 +374,7 @@ void testSublayerTransform(CALayer *layer) {
     
     CATransform3D transform = CATransform3DConcat(CATransform3DScale(CATransform3DIdentity, 2, 1, 1), CATransform3DRotate(CATransform3DIdentity, M_PI_4, 0, 0, 1));
     CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath: @"sublayerTransform"];
-    basicAnimation.toValue = @[@(transform.m11), @(transform.m12), @(transform.m13), @(transform.m14), @(transform.m21), @(transform.m22), @(transform.m23), @(transform.m24), @(transform.m31), @(transform.m32), @(transform.m33), @(transform.m34), @(transform.m41), @(transform.m42), @(transform.m43), @(transform.m44)];
+    basicAnimation.toValue = [NSValue valueWithCATransform3D: transform];
     basicAnimation.duration = 2;
     basicAnimation.autoreverses = YES;
     basicAnimation.repeatCount = 50;
@@ -396,7 +396,7 @@ void testTransform(CALayer *layer) {
     CATransform3D transform = CATransform3DConcat(CATransform3DConcat(scale, rotate), translate);
     
     CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath: @"transform"];
-    basicAnimation.toValue = @[@(transform.m11), @(transform.m12), @(transform.m13), @(transform.m14), @(transform.m21), @(transform.m22), @(transform.m23), @(transform.m24), @(transform.m31), @(transform.m32), @(transform.m33), @(transform.m34), @(transform.m41), @(transform.m42), @(transform.m43), @(transform.m44)];
+    basicAnimation.toValue = [NSValue valueWithCATransform3D: transform];
     basicAnimation.duration = 2;
     basicAnimation.autoreverses = YES;
     basicAnimation.repeatCount = 50;
