@@ -9,6 +9,7 @@
 #import "AnimationDemoViewController.h"
 #import "BasicAnimationViewController.h"
 #import "KeyFrameAnimationViewController.h"
+#import "TargetValueViewController.h"
 
 static NSString *reuseId = @"demo";
 
@@ -24,7 +25,7 @@ static NSString *reuseId = @"demo";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"Animate Layer-Backed Views", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction", @"CAAnimationDelegate"];
+    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction", @"CAAnimationDelegate"];
     [self.tableView registerClass: [UITableViewCell class] forCellReuseIdentifier: reuseId];
 }
 
@@ -59,6 +60,10 @@ static NSString *reuseId = @"demo";
             
         case 1:
             vc = [KeyFrameAnimationViewController new];
+            break;
+            
+        case 3:
+            vc = [TargetValueViewController new];
             break;
             
         default:
