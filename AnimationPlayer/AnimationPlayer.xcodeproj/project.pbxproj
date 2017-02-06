@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C6118EBF1E486089005B3AEE /* TargetValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118EBE1E486089005B3AEE /* TargetValueViewController.m */; };
 		C6118EC21E486A07005B3AEE /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118EC11E486A07005B3AEE /* SpringAnimationViewController.m */; };
+		C6118EC51E487914005B3AEE /* AnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118EC41E487914005B3AEE /* AnimationGroupViewController.m */; };
 		C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */; };
 		C66582401E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C665823F1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m */; };
 		C668044F1E2CE29300D09E95 /* TransitionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */; };
@@ -28,6 +29,8 @@
 		C6118EBE1E486089005B3AEE /* TargetValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetValueViewController.m; sourceTree = "<group>"; };
 		C6118EC01E486A07005B3AEE /* SpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAnimationViewController.h; sourceTree = "<group>"; };
 		C6118EC11E486A07005B3AEE /* SpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAnimationViewController.m; sourceTree = "<group>"; };
+		C6118EC31E487914005B3AEE /* AnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationGroupViewController.h; sourceTree = "<group>"; };
+		C6118EC41E487914005B3AEE /* AnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationGroupViewController.m; sourceTree = "<group>"; };
 		C665389F1E28BE94008C9333 /* UIViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationViewController.h; sourceTree = "<group>"; };
 		C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationViewController.m; sourceTree = "<group>"; };
 		C665823E1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationViewController.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 				C6118EBE1E486089005B3AEE /* TargetValueViewController.m */,
 				C6118EC01E486A07005B3AEE /* SpringAnimationViewController.h */,
 				C6118EC11E486A07005B3AEE /* SpringAnimationViewController.m */,
+				C6118EC31E487914005B3AEE /* AnimationGroupViewController.h */,
+				C6118EC41E487914005B3AEE /* AnimationGroupViewController.m */,
 			);
 			path = AnimationPlayer;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6118EC21E486A07005B3AEE /* SpringAnimationViewController.m in Sources */,
+				C6118EC51E487914005B3AEE /* AnimationGroupViewController.m in Sources */,
 				C668044F1E2CE29300D09E95 /* TransitionDemoViewController.m in Sources */,
 				C66804591E2E363100D09E95 /* ImplicitAnimationViewController.m in Sources */,
 				C66804821E32247F00D09E95 /* BasicAnimationViewController.m in Sources */,
