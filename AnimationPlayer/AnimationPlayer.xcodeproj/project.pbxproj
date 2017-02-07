@@ -12,6 +12,7 @@
 		C6118EC51E487914005B3AEE /* AnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118EC41E487914005B3AEE /* AnimationGroupViewController.m */; };
 		C6118ED61E496C4A005B3AEE /* CATransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118ED51E496C4A005B3AEE /* CATransitionViewController.m */; };
 		C6118ED91E496C5C005B3AEE /* CATransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118ED81E496C5C005B3AEE /* CATransactionViewController.m */; };
+		C6118EE31E497D70005B3AEE /* PauseResumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6118EE21E497D70005B3AEE /* PauseResumeViewController.m */; };
 		C66538A11E28BE94008C9333 /* UIViewAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */; };
 		C66582401E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C665823F1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.m */; };
 		C668044F1E2CE29300D09E95 /* TransitionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C668044E1E2CE29300D09E95 /* TransitionDemoViewController.m */; };
@@ -37,6 +38,8 @@
 		C6118ED51E496C4A005B3AEE /* CATransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionViewController.m; sourceTree = "<group>"; };
 		C6118ED71E496C5C005B3AEE /* CATransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransactionViewController.h; sourceTree = "<group>"; };
 		C6118ED81E496C5C005B3AEE /* CATransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransactionViewController.m; sourceTree = "<group>"; };
+		C6118EE11E497D70005B3AEE /* PauseResumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseResumeViewController.h; sourceTree = "<group>"; };
+		C6118EE21E497D70005B3AEE /* PauseResumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseResumeViewController.m; sourceTree = "<group>"; };
 		C665389F1E28BE94008C9333 /* UIViewAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationViewController.h; sourceTree = "<group>"; };
 		C66538A01E28BE94008C9333 /* UIViewAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationViewController.m; sourceTree = "<group>"; };
 		C665823E1E45BAD4006BF6F0 /* KeyFrameAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationViewController.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				C6118ED51E496C4A005B3AEE /* CATransitionViewController.m */,
 				C6118ED71E496C5C005B3AEE /* CATransactionViewController.h */,
 				C6118ED81E496C5C005B3AEE /* CATransactionViewController.m */,
+				C6118EE11E497D70005B3AEE /* PauseResumeViewController.h */,
+				C6118EE21E497D70005B3AEE /* PauseResumeViewController.m */,
 			);
 			path = AnimationPlayer;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 				C668047F1E32132300D09E95 /* CaseExploreViewController.m in Sources */,
 				C6C177341E1E5551005C3E39 /* main.m in Sources */,
 				C6118EBF1E486089005B3AEE /* TargetValueViewController.m in Sources */,
+				C6118EE31E497D70005B3AEE /* PauseResumeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

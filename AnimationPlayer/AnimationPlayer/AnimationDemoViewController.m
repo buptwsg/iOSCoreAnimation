@@ -14,6 +14,7 @@
 #import "AnimationGroupViewController.h"
 #import "CATransitionViewController.h"
 #import "CATransactionViewController.h"
+#import "PauseResumeViewController.h"
 
 static NSString *reuseId = @"demo";
 
@@ -29,7 +30,7 @@ static NSString *reuseId = @"demo";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction"];
+    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"Pause and Resume", @"CATransaction"];
     [self.tableView registerClass: [UITableViewCell class] forCellReuseIdentifier: reuseId];
 }
 
@@ -84,6 +85,10 @@ static NSString *reuseId = @"demo";
             break;
             
         case 7:
+            vc = [PauseResumeViewController new];
+            break;
+            
+        case 8:
             vc = [CATransactionViewController new];
             break;
             
