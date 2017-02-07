@@ -12,6 +12,8 @@
 #import "SpringAnimationViewController.h"
 #import "TargetValueViewController.h"
 #import "AnimationGroupViewController.h"
+#import "CATransitionViewController.h"
+#import "CATransactionViewController.h"
 
 static NSString *reuseId = @"demo";
 
@@ -27,7 +29,7 @@ static NSString *reuseId = @"demo";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction", @"CAAnimationDelegate"];
+    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"CATransaction"];
     [self.tableView registerClass: [UITableViewCell class] forCellReuseIdentifier: reuseId];
 }
 
@@ -53,6 +55,7 @@ static NSString *reuseId = @"demo";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSInteger row = indexPath.row;
+    [tableView deselectRowAtIndexPath: indexPath animated: YES];
     
     CaseExploreViewController *vc = nil;
     switch (row) {
@@ -74,6 +77,14 @@ static NSString *reuseId = @"demo";
             
         case 4:
             vc = [AnimationGroupViewController new];
+            break;
+            
+        case 6:
+            vc = [CATransitionViewController new];
+            break;
+            
+        case 7:
+            vc = [CATransactionViewController new];
             break;
             
         default:
