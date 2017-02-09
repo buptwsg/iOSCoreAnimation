@@ -30,7 +30,7 @@ static NSString *reuseId = @"demo";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"Chain Animations", @"CATransition", @"Pause and Resume", @"CATransaction"];
+    self.titleArray = @[@"CABasicAnimation", @"CAKeyFrameAnimation", @"CASpringAnimation", @"动画结束时保持最终值", @"CAAnimationGroup", @"CATransition", @"Pause and Resume", @"CATransaction"];
     [self.tableView registerClass: [UITableViewCell class] forCellReuseIdentifier: reuseId];
 }
 
@@ -80,15 +80,15 @@ static NSString *reuseId = @"demo";
             vc = [AnimationGroupViewController new];
             break;
             
-        case 6:
+        case 5:
             vc = [CATransitionViewController new];
             break;
             
-        case 7:
+        case 6:
             vc = [PauseResumeViewController new];
             break;
             
-        case 8:
+        case 7:
             vc = [CATransactionViewController new];
             break;
             
