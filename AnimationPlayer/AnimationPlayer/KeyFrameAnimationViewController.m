@@ -47,6 +47,8 @@ void testCGPointWithPath(CALayer *layer) {
     animation.autoreverses = YES;
     animation.repeatCount = 50;
     [testLayer addAnimation: animation forKey: @"position"];
+    
+    CGPathRelease(thePath);
 }
 
 void testCGRect(CALayer *layer) {

@@ -60,14 +60,14 @@
                          forKey:kCATransactionDisableActions];
     }
     
-    CGFloat startOpacity = 0;
+//    CGFloat startOpacity = 0;
     CGFloat targetOpacity = 0;
     if (_subLayer.opacity < 0.4) {
-        startOpacity = 0.3;
+//        startOpacity = 0.3;
         targetOpacity = 1.0;
     }
     else {
-        startOpacity = 1.0;
+//        startOpacity = 1.0;
         targetOpacity = 0.3;
     }
     
