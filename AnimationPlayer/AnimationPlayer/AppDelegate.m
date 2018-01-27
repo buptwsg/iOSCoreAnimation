@@ -17,8 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-//    CGPathRef path = CGPathCreateWithRect(CGRectMake(0, 0, 100, 100), NULL);
+    CGPathRef path = CGPathCreateWithRect(CGRectMake(0, 0, 100, 100), NULL);
 //    NSString *
+    [self performSelector: @selector(hello:)];
     return YES;
 }
 
